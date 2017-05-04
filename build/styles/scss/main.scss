@@ -1,0 +1,30 @@
+// based on hugo giraudel's 7-1 structure
+
+// sass utils
+@import "utils/variables";
+@import "utils/functions";
+@import "utils/mixins";
+@import "utils/placeholders";
+
+// vendor stuff
+
+// base stuff
+@import "base/reset";
+@import "base/base";
+@import "base/typography";
+
+// layout stuff
+@import "layout/grid";
+@import "layout/header";
+@import "layout/footer";
+@import "layout/navigation";
+
+// module stuff
+@import "modules/forms";
+@import "modules/buttons";
+@import "modules/components";
+
+// specific stuff
+@import "pages/home"
+
+//theme stuff

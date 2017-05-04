@@ -1,0 +1,17 @@
+// ------------------------------------------------------------------
+// BUTTON OPTIONS
+// ------------------------------------------------------------------
+.button {
+    display: inline-block;
+	padding: 12px 20px;
+	background: $link-color;
+	color: $white;
+	font-size: 14px;
+    line-height: 1.2;
+	border-radius: 5px;
+    @include transition-default;
+	&:hover {
+        color: $white;
+		background: $link-hover-color;
+	}
+}

@@ -1,0 +1,49 @@
+// ------------------------------------------------------------------
+// COLOURS
+// ------------------------------------------------------------------
+$white: #fff;
+$black: #000;
+$success: #62b51f;
+$warning: #e4be4c;
+$error: #c82727;
+$info: #5bc0de;
+
+// $facebook: #3b5998;
+// $twitter: #55acee;
+// $googleplus: #dd4b39;
+// $youtube: #bb0000;
+// $linkedin: #007bb5;
+// $instagram: #125688;
+// $pinterest: #cb2027;
+
+// ------------------------------------------------------------------
+// FONTS
+// ------------------------------------------------------------------
+$sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$serif: Georgia, Times, "Times New Roman", serif;
+
+$line-height: 1.5;
+
+$light: 300;
+$normal: 400;
+$semi: 600;
+$bold: 700;
+
+$text-size: 16px;
+$text-color: #444;
+
+$link-color: #00e;
+$link-hover-color: darken($link-color, 25%);
+
+// ------------------------------------------------------------------
+// DEFAULT TEMPLATE OPTIONS
+// ------------------------------------------------------------------
+$body-color: $white;
+$font-family: $sans;
+
+// ------------------------------------------------------------------
+// FORMS
+// ------------------------------------------------------------------
+$input-bkg: $white;
+$input-border: lighten($black, 90%);
+$input-focus: lighten($black, 95%);

@@ -1,0 +1,42 @@
+/* -----------------------------------------------------------------
+	GENERAL ELEMENTS
+------------------------------------------------------------------*/
+html {
+	background: $body-color;
+}
+
+body {
+	font-size: $text-size;
+	color: $text-color;
+	font-family: $font-family;
+	background: $body-color;
+	line-height: $line-height;
+}
+
+p, ul, ol, h1, h2, h3, h4, h5, h6, blockquote, .iframe-wrap, .split-content {
+	&:first-child {
+		margin-top: 0;
+	}
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+// ------------------------------------------------------------------
+// HELPERS
+// ------------------------------------------------------------------
+img,
+iframe {
+	display: block;
+	max-width: 100%;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
